@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>DotnetSerializationBenchmark.Tests.Deserialization-20230217-123029</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet=v0.13.4, OS=macOS 13.2 (22D49) [Darwin 22.3.0]
+Apple M1 Pro, 1 CPU, 10 logical and 10 physical cores
+.NET SDK=7.0.103
+  [Host]     : .NET 7.0.3 (7.0.323.6910), Arm64 RyuJIT AdvSIMD DEBUG
+  DefaultJob : .NET 7.0.3 (7.0.323.6910), Arm64 RyuJIT AdvSIMD
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>        Method</th><th>Mean</th><th>Error</th><th>StdDev</th><th>Gen0</th><th>Gen1</th><th>Allocated</th>
+</tr>
+</thead><tbody><tr><td>SystemJsonSerializer</td><td>7.619 &mu;s</td><td>0.0094 &mu;s</td><td>0.0083 &mu;s</td><td>0.6866</td><td>-</td><td>4.29 KB</td>
+</tr><tr><td>JsonNet</td><td>20.383 &mu;s</td><td>0.0859 &mu;s</td><td>0.0717 &mu;s</td><td>2.2583</td><td>0.0305</td><td>13.88 KB</td>
+</tr><tr><td>NetJson</td><td>11.053 &mu;s</td><td>0.0464 &mu;s</td><td>0.0434 &mu;s</td><td>1.6632</td><td>0.0153</td><td>10.23 KB</td>
+</tr><tr><td>ProtobufNet</td><td>4.411 &mu;s</td><td>0.0079 &mu;s</td><td>0.0070 &mu;s</td><td>0.3738</td><td>-</td><td>2.3 KB</td>
+</tr></tbody></table>
+</body>
+</html>
