@@ -20,11 +20,13 @@ Libraries
 - [Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json)
 - [JsonNET](https://github.com/rpgmaker/NetJSON)
 - [protobuf-net](https://github.com/protobuf-net/protobuf-net)
-
-Other Candidates
 - [Utf8Json](https://github.com/neuecc/Utf8Json)
 - [LitJSON](https://github.com/LitJSON/litjson)
 - [MessagePack](https://github.com/neuecc/MessagePack-CSharp)
+- [BinaryFormatter](https://learn.microsoft.com/en-us/dotnet/standard/serialization/binary-serialization) (obsolete)
+- [JsonUtility](https://docs.unity3d.com/ScriptReference/JsonUtility.html) (Unity Scripting API)
+
+Other Candidates
 - [Odin](https://github.com/TeamSirenix/odin-serializer)
 - [Bond](https://github.com/microsoft/bond/)
 - [Swifter.Json](https://github.com/Dogwei/Swifter.Json)
