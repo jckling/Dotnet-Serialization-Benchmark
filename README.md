@@ -18,7 +18,7 @@ Criteria
 Libraries
 - [System.Text.Json.JsonSerializer](https://learn.microsoft.com/en-us/dotnet/api/system.text.json.jsonserializer?view=net-7.0)
 - [Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json)
-- [JsonNET](https://github.com/rpgmaker/NetJSON)
+- [NetJSON](https://github.com/rpgmaker/NetJSON)
 - [protobuf-net](https://github.com/protobuf-net/protobuf-net)
 - [Utf8Json](https://github.com/neuecc/Utf8Json)
 - [LitJSON](https://github.com/LitJSON/litjson)
@@ -33,7 +33,7 @@ Other Candidates
 
 # Data Types
 
-See [Models](./DotnetSerializationBenchmark/Models/).
+See [Models](./DotnetSerializationBenchmark/Models/) and [Test.cs](./Test.cs).
 
 # Results
 
